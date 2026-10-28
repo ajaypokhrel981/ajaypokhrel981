@@ -1,81 +1,89 @@
+![Ajay Pokhrel — Mechanical Engineer, CFD and Heat Transfer](assets/engineering-banner.svg)
+
 <div align="center">
 
-# Ajay Pokhrel
-### Mechanical Engineer · Computational Fluid Dynamics · Heat Transfer
+**ANSYS Fluent · OpenFOAM · Python · Excel · ParaView**
 
-ANSYS Fluent &nbsp; | &nbsp; OpenFOAM &nbsp; | &nbsp; Python &nbsp; | &nbsp; ParaView
-
-**Exploring fluid flow and thermal systems through simulation, visualisation, and documented engineering work.**
-
-[Fluent project](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer) · [OpenFOAM project](https://github.com/ajaypokhrel981/openfoam-t-junction-flow)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square)](https://www.linkedin.com/in/ajay-pokhrel-93aa83223/)
+[![Fluent project](https://img.shields.io/badge/Project-ANSYS_Fluent-145369?style=flat-square)](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer)
+[![OpenFOAM project](https://img.shields.io/badge/Project-OpenFOAM-145369?style=flat-square)](https://github.com/ajaypokhrel981/openfoam-t-junction-flow)
 
 </div>
 
----
-
 ## About me
 
-I'm a mechanical engineering graduate from **Tribhuvan University, Nepal**, and a **Mechanical Engineering Instructor at Lahan Technical School**. My interests centre on computational heat transfer, internal flows, and thermal management.
+I'm **Ajay Pokhrel**, a mechanical engineering graduate from **Tribhuvan University, Nepal**, and a **Mechanical Engineering Instructor at Lahan Technical School, CTEVT**. I use simulation, visualisation, and engineering analysis to explore fluid flow and heat transfer.
 
-- **Project experience:** conjugate heat transfer in ANSYS Fluent and turbulent pipe-junction flow in OpenFOAM.
-- **Undergraduate thesis:** numerical modelling of a closed-loop pulsating heat pipe in ANSYS Fluent using VOF and Lee phase-change modelling.
+My work includes conjugate heat transfer in **ANSYS Fluent**, internal flow in **OpenFOAM**, and an undergraduate thesis on a **closed-loop pulsating heat pipe** using VOF and Lee phase-change modelling.
+
+- **Engineering interests:** computational heat transfer, multiphase CFD, battery thermal management, and thermal systems.
+- **Teaching:** Fluid Mechanics, Thermal Engineering, Hydraulics, and practical engineering.
 - **Currently developing:** OpenFOAM proficiency, scientific Python, and simulation verification and validation.
-- **Research direction:** CFD and heat transfer for thermal-management applications.
 
-This portfolio brings together simulation setups, technical reports, visual results, and reproducibility notes. My OpenFOAM and Python skills are developing through coursework and practical projects.
+## Engineering toolkit
+
+| Area | Tools and experience |
+| :--- | :--- |
+| **CFD & thermal analysis** | ANSYS Fluent · Conjugate heat transfer · Internal flow · VOF · Lee phase-change model |
+| **OpenFOAM — basic working knowledge** | `blockMesh` · `snappyHexMesh` · `simpleFoam` · k–ω SST |
+| **Data & visualisation** | Python — basic, with project plotting scripts · Microsoft Excel · ParaView |
+| **CAD** | SolidWorks · AutoCAD |
+| **Technical communication** | Engineering reports · Simulation figures · Case documentation · Teaching |
 
 ## Featured simulation projects
 
-### 01 · Conjugate heat transfer — ANSYS Fluent
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Forced convective cooling of a conducting square obstacle in a channel**, based on Young & Vafai (1998).
+### ANSYS Fluent · Conjugate heat transfer
 
-[![Original Re1000 temperature contours from the coursework archive](https://raw.githubusercontent.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer/main/results/figures/Re1000/Re1000_paperstyle_isotherms.png)](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer)
+<a href="https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer"><img src="https://raw.githubusercontent.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer/main/results/figures/Re1000/Re1000_paperstyle_isotherms.png" alt="Original coursework temperature contours around a heated obstacle" width="100%"></a>
 
-| Focus | Project evidence |
-| --- | --- |
-| Setup | Fluent case files, geometry, and a parabolic inlet velocity UDF |
-| Post-processing | Nusselt-number exports and Python contour plotting |
-| Documentation | Original reports, archived results, and verification notes |
+**Forced convective cooling of a heated obstacle in a channel.**
 
-**Status:** preserved coursework simulation archive. Differences between saved-case settings and report descriptions remain unresolved; benchmark validation has not been established by the repository review.
+Fluent case files, inlet-velocity UDF sources, Nusselt-number exports, Python post-processing, and technical reports.
 
-[Explore repository →](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer) · [Results](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer/tree/main/results/figures) · [Post-processing](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer/tree/main/postprocessing) · [Verification notes](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer/blob/main/docs/verification-notes.md)
+[Explore the project →](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer)
 
-### 02 · T-junction flow — OpenFOAM
+</td>
+<td width="50%" valign="top">
 
-**Steady, incompressible turbulent flow through a three-dimensional pipe junction** with one inlet and two outlets.
+### OpenFOAM · T-junction flow
 
-[![Original T-junction velocity contour from the coursework run](https://raw.githubusercontent.com/ajaypokhrel981/openfoam-t-junction-flow/main/results/original/velocity-contour.png)](https://github.com/ajaypokhrel981/openfoam-t-junction-flow)
+<a href="https://github.com/ajaypokhrel981/openfoam-t-junction-flow"><img src="https://raw.githubusercontent.com/ajaypokhrel981/openfoam-t-junction-flow/main/results/original/velocity-contour.png" alt="Original coursework velocity contour through a three-dimensional T-junction" width="100%"></a>
 
-| Focus | Project evidence |
-| --- | --- |
-| Meshing | STL geometry, `blockMesh`, and `snappyHexMesh` |
-| Solution | `simpleFoam` with k–ω SST turbulence modelling |
-| Execution checks | Rebuilt 183,378-cell mesh passed `checkMesh`; 500 solver iterations completed in OpenFOAM v2412 |
+**Steady, incompressible turbulent flow through a 3D pipe junction.**
 
-**Status:** workflow execution verified. Convergence, physical accuracy, and mesh independence still require assessment. The image above shows original coursework results, not the verification rerun.
+STL-based meshing, boundary-condition setup, `simpleFoam` with k–ω SST, and ParaView visualisation.
 
-[Explore repository →](https://github.com/ajaypokhrel981/openfoam-t-junction-flow) · [Case files](https://github.com/ajaypokhrel981/openfoam-t-junction-flow/tree/main/case) · [Verification logs](https://github.com/ajaypokhrel981/openfoam-t-junction-flow/tree/main/results/verification) · [Technical report](https://github.com/ajaypokhrel981/openfoam-t-junction-flow/blob/main/docs/assessment-report.pdf)
+[Explore the project →](https://github.com/ajaypokhrel981/openfoam-t-junction-flow)
 
-## Tools used in these projects
+</td>
+</tr>
+</table>
 
-| Area | Tools and methods |
-| --- | --- |
-| CFD | ANSYS Fluent, OpenFOAM, RANS, conjugate heat transfer |
-| Meshing and setup | `blockMesh`, `snappyHexMesh`, STL geometry, boundary conditions |
-| Post-processing | ParaView, Python, NumPy, pandas, SciPy, Matplotlib |
-| Technical communication | Simulation reports, result figures, verification records |
+<details>
+<summary><strong>Project evidence and verification status</strong></summary>
 
-## How I document engineering work
+- **ANSYS Fluent:** a preserved coursework archive. Differences between saved-case settings and report descriptions remain unresolved; benchmark validation has not been established by the repository review. See the [verification notes](https://github.com/ajaypokhrel981/ansys-fluent-conjugate-heat-transfer/blob/main/docs/verification-notes.md).
+- **OpenFOAM:** the rebuilt 183,378-cell mesh passed `checkMesh` and the solver completed 500 iterations in OpenFOAM v2412. Convergence, physical accuracy, and mesh independence still require assessment. See the [verification logs](https://github.com/ajaypokhrel981/openfoam-t-junction-flow/tree/main/results/verification).
+- The images above show **original coursework results**. Each repository distinguishes archived results from later execution checks.
 
-I describe the physical problem, numerical setup, and execution steps; retain original results separately from rerun evidence; and state verification limits alongside numerical claims. Each project README explains the methods, available results, and remaining checks.
+</details>
+
+## How I use this portfolio
+
+I share simulation setups, engineering reports, result figures, and reproducibility notes so others can understand the physical problem, inspect the numerical approach, and review the evidence. This portfolio also records my continued learning in CFD and engineering analysis.
+
+## Connect
+
+I'm interested in conversations about **CFD, heat transfer, thermal management, and engineering education**.
+
+**[Find me on LinkedIn →](https://www.linkedin.com/in/ajay-pokhrel-93aa83223/)**
 
 ---
 
 <div align="center">
-
-**CFD · Heat transfer · Thermal management**  
-Based in Nepal
-
+<sub>Mechanical engineering · Fluid flow · Heat transfer · Based in Nepal</sub>
 </div>
