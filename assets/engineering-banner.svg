@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Ajay Pokhrel — Mechanical Engineering, CFD and Heat Transfer</title>
+<desc id="desc">Engineering portfolio banner with a schematic channel and curved flow lines in blue and teal.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b172a"/><stop offset="1" stop-color="#13364a"/></linearGradient>
+ <linearGradient id="flow"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#a5c9e0" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1200" height="320" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+<rect x="56" y="49" width="45" height="4" rx="2" fill="#5eead4"/>
+<text x="56" y="108" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700" fill="#f1f5f9">AJAY POKHREL</text>
+<text x="58" y="151" font-family="Segoe UI,Arial,sans-serif" font-size="23" fill="#a7d9ef">Mechanical Engineer · CFD &amp; Heat Transfer</text>
+<text x="58" y="199" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#c4d2e0">Understanding fluid flow. Exploring thermal systems.</text>
+<text x="58" y="267" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="1.2" fill="#5eead4">SIMULATION  /  VISUALISATION  /  ENGINEERING</text>
+<g transform="translate(786 66)" fill="none">
+ <path d="M0 0H350M0 184H350" stroke="#92b5cb" stroke-width="2" opacity=".55"/>
+ <path d="M147 184V104H221V184" fill="#163f52" stroke="#6bafc8" stroke-width="2"/>
+ <g stroke="url(#flow)" stroke-width="2.5" stroke-linecap="round">
+  <path d="M0 33C80 33 109 26 163 26H341"/>
+  <path d="M0 65C86 65 108 47 165 47H341"/>
+  <path d="M0 97C90 97 111 68 165 68H341"/>
+  <path d="M0 129C89 129 108 88 164 88S253 129 341 129"/>
+  <path d="M0 161C88 161 98 94 146 94S216 92 241 144S302 161 341 161"/>
+ </g>
+ <circle cx="183" cy="142" r="8" fill="#fb923c" stroke="none"/>
+ <path d="M173 164H193M183 154V174" stroke="#fb923c" stroke-width="2"/>
+</g>
+<text x="791" y="282" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#8db3ca">FLOW + THERMAL SCIENCES</text>
+</svg>
