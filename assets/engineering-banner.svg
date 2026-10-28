@@ -1,30 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">Ajay Pokhrel — Mechanical Engineering, CFD and Heat Transfer</title>
-<desc id="desc">Engineering portfolio banner with a schematic channel and curved flow lines in blue and teal.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+<title id="title">Ajay Pokhrel — Mechanical Engineer and Educator</title>
+<desc id="desc">CFD, heat transfer and thermal systems. Abstract schematic flow lines and a thermal colour spectrum; decorative illustration, not simulation results.</desc>
 <defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b172a"/><stop offset="1" stop-color="#13364a"/></linearGradient>
- <linearGradient id="flow"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#a5c9e0" stroke-opacity=".07"/></pattern>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1424"/><stop offset="1" stop-color="#112e3d"/></linearGradient>
+<linearGradient id="heat"><stop stop-color="#4dd9d0"/><stop offset=".45" stop-color="#83c5a2"/><stop offset=".72" stop-color="#f6c76a"/><stop offset="1" stop-color="#ee8759"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#2d888c" stop-opacity=".3"/><stop offset="1" stop-color="#2d888c" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#94d4df" stroke-opacity=".055" fill="none"/></pattern>
+<clipPath id="clip"><rect width="1280" height="380" rx="22"/></clipPath>
 </defs>
-<rect width="1200" height="320" rx="20" fill="url(#bg)"/>
-<rect width="1200" height="320" rx="20" fill="url(#grid)"/>
-<rect x="56" y="49" width="45" height="4" rx="2" fill="#5eead4"/>
-<text x="56" y="108" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700" fill="#f1f5f9">AJAY POKHREL</text>
-<text x="58" y="151" font-family="Segoe UI,Arial,sans-serif" font-size="23" fill="#a7d9ef">Mechanical Engineer · CFD &amp; Heat Transfer</text>
-<text x="58" y="199" font-family="Segoe UI,Arial,sans-serif" font-size="17" fill="#c4d2e0">Understanding fluid flow. Exploring thermal systems.</text>
-<text x="58" y="267" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="1.2" fill="#5eead4">SIMULATION  /  VISUALISATION  /  ENGINEERING</text>
-<g transform="translate(786 66)" fill="none">
- <path d="M0 0H350M0 184H350" stroke="#92b5cb" stroke-width="2" opacity=".55"/>
- <path d="M147 184V104H221V184" fill="#163f52" stroke="#6bafc8" stroke-width="2"/>
- <g stroke="url(#flow)" stroke-width="2.5" stroke-linecap="round">
-  <path d="M0 33C80 33 109 26 163 26H341"/>
-  <path d="M0 65C86 65 108 47 165 47H341"/>
-  <path d="M0 97C90 97 111 68 165 68H341"/>
-  <path d="M0 129C89 129 108 88 164 88S253 129 341 129"/>
-  <path d="M0 161C88 161 98 94 146 94S216 92 241 144S302 161 341 161"/>
- </g>
- <circle cx="183" cy="142" r="8" fill="#fb923c" stroke="none"/>
- <path d="M173 164H193M183 154V174" stroke="#fb923c" stroke-width="2"/>
+<g clip-path="url(#clip)">
+<rect width="1280" height="380" fill="url(#bg)"/>
+<rect width="1280" height="380" fill="url(#grid)"/>
+<ellipse cx="1040" cy="160" rx="320" ry="250" fill="url(#glow)"/>
+<rect x="0" width="7" height="380" fill="url(#heat)"/>
+<text x="58" y="56" fill="#70d7d2" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="3">MECHANICAL ENGINEERING PORTFOLIO</text>
+<text x="54" y="132" fill="#f4f7fa" font-family="Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="-1">Ajay Pokhrel</text>
+<text x="58" y="176" fill="#c4d4df" font-family="Segoe UI,Arial,sans-serif" font-size="25">Mechanical Engineer &amp; Educator</text>
+<text x="58" y="228" fill="#f4f7fa" font-family="Segoe UI,Arial,sans-serif" font-size="21">Exploring how fluids flow and heat moves.</text>
+<text x="58" y="260" fill="#9db4c5" font-family="Segoe UI,Arial,sans-serif" font-size="17">Simulation, practical engineering, and shared learning.</text>
+<path d="M58 300H1220" stroke="#335365"/>
+<g font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="1.5">
+<text x="58" y="340" fill="#6ddad3">COMPUTATIONAL FLUID DYNAMICS</text>
+<text x="440" y="340" fill="#c4d4df">HEAT TRANSFER</text>
+<text x="680" y="340" fill="#c4d4df">THERMAL SYSTEMS</text>
+<text x="1135" y="340" fill="#f6c76a">NEPAL</text>
 </g>
-<text x="791" y="282" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#8db3ca">FLOW + THERMAL SCIENCES</text>
-</svg>
+<g transform="translate(820 64)" fill="none">
+<path d="M0 16H394M0 185H394" stroke="#6b93a9" stroke-width="1.5" opacity=".45"/>
+<g stroke="url(#heat)" stroke-width="2" opacity=".9">
+<path d="M0 41C90 41 104 20 194 20S305 41 394 41"/>
+<path d="M0 66C94 66 106 36 194 36S302 66 394 66"/>
+<path d="M0 91C99 91 108 52 194 52S293 91 394 91"/>
+<path d="M0 116C95 116 115 68 194 68S292 116 394 116"/>
+<path d="M0 141C101 141 115 84 194 84S290 141 394 141"/>
+<path d="M0 166C110 166 116 100 194 100S283 166 394 166"/>
+</g>
+<path d="M145 185V127Q145 117 155 117H233Q243 117 243 127V185" fill="#263f48" stroke="#e6b36c" stroke-width="1.5"/>
+<path d="M161 163H228M161 148H228M161 133H228" stroke="#eda268" stroke-width="2" opacity=".7"/>
+<rect y="212" width="164" height="4" rx="2" fill="url(#heat)"/>
+<text x="191" y="218" fill="#91acbf" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1.5">FLOW / THERMAL SCHEMATIC</text>
+</g>
+</g></svg>
